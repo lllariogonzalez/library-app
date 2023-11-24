@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Cien años de soledad",
+    "date": "1967",
+    "author": "Gabriel García Márquez",
+    "gender": "Ficción",
+    "stock": 5,
+    "available": 3
+  },
+  {
+    "id": 2,
+    "title": "1984",
+    "date": "1949",
+    "author": "George Orwell",
+    "gender": "Ciencia ficción",
+    "stock": 8,
+    "available": 2
+  },
+  {
+    "id": 3,
+    "title": "El señor de los anillos",
+    "date": "1954",
+    "author": "J.R.R. Tolkien",
+    "gender": "Fantasía",
+    "stock": 12,
+    "available": 10
+  },
+  {
+    "id": 4,
+    "title": "Harry Potter y la piedra filosofal",
+    "date": "1997",
+    "author": "J.K. Rowling",
+    "gender": "Fantasía",
+    "stock": 20,
+    "available": 15
+  },
+  {
+    "id": 5,
+    "title": "Orgullo y prejuicio",
+    "date": "1813",
+    "author": "Jane Austen",
+    "gender": "Clásicos",
+    "stock": 7,
+    "available": 4
+  },
+  {
+    "id": 6,
+    "title": "El código Da Vinci",
+    "date": "2003",
+    "author": "Dan Brown",
+    "gender": "Suspense",
+    "stock": 10,
+    "available": 0
+  },
+  {
+    "id": 7,
+    "title": "Matar a un ruiseñor",
+    "date": "1960",
+    "author": "Harper Lee",
+    "gender": "Drama",
+    "stock": 4,
+    "available": 1
+  },
+  {
+    "id": 8,
+    "title": "El principito",
+    "date": "1943",
+    "author": "Antoine de Saint-Exupéry",
+    "gender": "Infantil",
+    "stock": 15,
+    "available": 12
+  },
+  {
+    "id": 9,
+    "title": "El alquimista",
+    "date": "1988",
+    "author": "Paulo Coelho",
+    "gender": "Ficción",
+    "stock": 6,
+    "available": 6
+  },
+  {
+    "id": 10,
+    "title": "El Hobbit",
+    "date": "1937",
+    "author": "J.R.R. Tolkien",
+    "gender": "Fantasía",
+    "stock": 9,
+    "available": 9
+  }
+]
