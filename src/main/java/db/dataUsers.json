@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Juan",
+    "lastName": "García",
+    "email": "juan@example.com",
+    "address": "Calle Principal 123",
+    "tel": "123-456-7890"
+  },
+  {
+    "id": 2,
+    "name": "María",
+    "lastName": "López",
+    "email": "maria@example.com",
+    "address": "Avenida Central 456",
+    "tel": "987-654-3210"
+  },
+  {
+    "id": 3,
+    "name": "Carlos",
+    "lastName": "Martínez",
+    "email": "carlos@example.com",
+    "address": "Plaza Mayor 789",
+    "tel": "111-222-3333"
+  },
+  {
+    "id": 4,
+    "name": "Laura",
+    "lastName": "González",
+    "email": "laura@example.com",
+    "address": "Calle Secundaria 567",
+    "tel": "444-555-6666"
+  },
+  {
+    "id": 5,
+    "name": "Pedro",
+    "lastName": "Rodríguez",
+    "email": "pedro@example.com",
+    "address": "Paseo de la Montaña 890",
+    "tel": "777-888-9999"
+  }
+]

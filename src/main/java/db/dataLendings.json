@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "userId": 1,
+    "bookId": 3,
+    "dateOut": "15/10/2023",
+    "dateReturn": "24-11-2023"
+  },
+  {
+    "id": 2,
+    "userId": 2,
+    "bookId": 4,
+    "dateOut": "18/10/2023",
+    "dateReturn": "28/10/2023"
+  },
+  {
+    "id": 3,
+    "userId": 3,
+    "bookId": 8,
+    "dateOut": "20/10/2023",
+    "dateReturn": "30/10/2023"
+  },
+  {
+    "id": 4,
+    "userId": 4,
+    "bookId": 4,
+    "dateOut": "22/10/2023",
+    "dateReturn": "01/11/2023"
+  },
+  {
+    "id": 5,
+    "userId": 5,
+    "bookId": 6,
+    "dateOut": "25/10/2023",
+    "dateReturn": "04/11/2023"
+  },
+  {
+    "id": 6,
+    "userId": 3,
+    "bookId": 8,
+    "dateOut": "01/11/2023",
+    "dateReturn": "10/11/2023"
+  },
+  {
+    "id": 7,
+    "userId": 4,
+    "bookId": 8,
+    "dateOut": "08/11/2023",
+    "dateReturn": "18/11/2023"
+  }
+]
