@@ -5,7 +5,7 @@
     "lastName": "García",
     "email": "juan@example.com",
     "address": "Calle Principal 123",
-    "tel": "123-456-7890"
+    "tel": "1234567890"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "lastName": "López",
     "email": "maria@example.com",
     "address": "Avenida Central 456",
-    "tel": "987-654-3210"
+    "tel": "9876543210"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "lastName": "Martínez",
     "email": "carlos@example.com",
     "address": "Plaza Mayor 789",
-    "tel": "111-222-3333"
+    "tel": "1112223333"
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "lastName": "González",
     "email": "laura@example.com",
     "address": "Calle Secundaria 567",
-    "tel": "444-555-6666"
+    "tel": "4445556666"
   },
   {
     "id": 5,
@@ -37,6 +37,6 @@
     "lastName": "Rodríguez",
     "email": "pedro@example.com",
     "address": "Paseo de la Montaña 890",
-    "tel": "777-888-9999"
+    "tel": "7778889999"
   }
 ]
