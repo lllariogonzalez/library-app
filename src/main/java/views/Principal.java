@@ -34,7 +34,7 @@ public class Principal extends javax.swing.JPanel {
         bg.setToolTipText("");
 
         image.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        image.setIcon(new javax.swing.ImageIcon(getClass().getResource("/library.png"))); // NOI18N
+        image.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon.png"))); // NOI18N
 
         title.setBackground(new java.awt.Color(255, 255, 255));
         title.setFont(new java.awt.Font("Segoe UI", 1, 30)); // NOI18N
