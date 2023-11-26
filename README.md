@@ -67,7 +67,9 @@ La aplicación inica en `Main.java` haciendo uso de `java.awt.EventQueue.invokeL
 Este bloque de código es fundamental para la programación Swing. [EventQueue.invokeLater](https://docs.oracle.com/javase/8/docs/api/java/awt/EventQueue.html) se utiliza para garantizar que la creación y modificación de componentes de la interfaz gráfica se realicen en el hilo de despacho de eventos (Event Dispatch Thread - EDT) de Swing.
 Dentro de este bloque se llama a la vista principal **Dashboard** la cual se encarga de administrar y mostrar todas las vistas de la aplicación `views`, para ello se hace uso de `ShowJPanel` un panel que según la acción dada por el menú lateral de navegación mostrará la vista correspondiente, cada uno de estas tiene su propia lógica y controladores.
 
-La lógica de toda el control y manejo de la aplicación pasa primeramente por `controllers` cada entidad o modelo, que se encuentra en `models` tiene su propio controlador, a su vez se hace uso de `interfaces` para Abstraer y establecer un contrato. Estos son implementados en cada DAO, acceso a datos que se encuentran en `db` cada uno administra los datos aplicando el contrato.
+La lógica de toda el control y manejo de la aplicación pasa primeramente por `controllers` cada entidad o modelo, `Books`, `Users` y `Lendings` que se encuentra en `models` tiene su propio controlador, a su vez se hace uso de `interfaces` para Abstraer y establecer un contrato. Estos son implementados en cada DAO, acceso a datos que se encuentran en `db` cada uno administra los datos aplicando el contrato.
+
+![Models library-app](./src/images/models.drawio.png)
 
 Para este caso, dado que aun no cursamos Base de Datos, investigué como hacer uso de archivos json y cree `DAOService` que junto con la dependencia `com.fasterxml.jackson.core` me permite acceder a cada arhivo data json correspondiente a los modelos, para ello hago uso de [generics](https://docs.oracle.com/javase/tutorial/java/generics/types.html). Este servicio tiene 2 métodos `loadFile()` y `saveFile` para leer y guardar respectivamente. 
 
@@ -77,3 +79,4 @@ Posteriormente sigue Usuarios y Libros, ambos cuentan con una tabla que refleja 
 Hablando de errores, se crea en services un clase abstracta para notificar usuarios que implementa una interfaz `NotificationInterface` la cual permite mostrar por ventanas con `JOptionPane` mensajes de información, errores o éxito cuando sea necesario, asi mantener una UI amigable con el usuario.
 
 Para finalizar tenemos la vista de reportes la cual contiene 3 tablas, los movimientos de la biblioteca y en base a estos 2 tablas que muestran los usuarios mas activos y los libros mas solicitados. Para lograr esto se hace uso de HasMap, List y métodos de ordenamiento `.sort()` para obtener los primeros 3 datos de mayor actividad.
+
