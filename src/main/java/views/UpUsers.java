@@ -229,6 +229,8 @@ public class UpUsers extends javax.swing.JPanel {
                 domTxt.setText("");
                 phoneTxt.setText("");
             }
+
+            Dashboard.ShowJPanel(new Users());
         } catch (Exception e) {
             String errorMsg = isEdition ? "modificar" : "registrar";
             notificationService.showErrorNotification("Ocurrió un error al " + errorMsg + " el usuario. \n");
