@@ -2,6 +2,7 @@ package views;
 
 import utils.Utils;
 import java.awt.BorderLayout;
+import javax.swing.ImageIcon;
 import javax.swing.JPanel;
 
 public class Dashboard extends javax.swing.JFrame {
@@ -14,6 +15,8 @@ public class Dashboard extends javax.swing.JFrame {
     private void InitContent() {
         ShowJPanel(new Principal());
         dateText.setText(Utils.getCurrentDateComplete());
+        ImageIcon icono = new ImageIcon("./src/main/resources/library.png");
+        setIconImage(icono.getImage());
     }
     
     public static void ShowJPanel(JPanel p) {
