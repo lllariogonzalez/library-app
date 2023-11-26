@@ -47,7 +47,9 @@ Esta actividad permitirá a los estudiantes aplicar los conocimientos adquiridos
 
 ---
 
-# Resolución
+# Resolución - Library App
+
+![Library-app icon](./src/images/library-app.png)
 
 Dado los requisitos del proyecto diseñe un app aplicando **POO**, **Interfaces**, **Streams**, **Java Swing** para las vistas y una arquitectura **MVC** con la siguiente estructura:
 
