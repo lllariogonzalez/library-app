@@ -292,6 +292,8 @@ public class UpBooks extends javax.swing.JPanel {
                 stockTxt.setText("");
                 dispTxt.setText("");
             }
+
+            Dashboard.ShowJPanel(new views.Books());
         } catch (Exception e) {
             String errorMsg = isEdition ? "modificar" : "registrar";
             notificationService.showErrorNotification("Ocurrió un error al " + errorMsg + " el libro. \n");
