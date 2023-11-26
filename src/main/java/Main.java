@@ -4,7 +4,7 @@ import views.Dashboard;
 
 public class Main {
   public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
+        /* set coustom styles */
         FlatMaterialLighterIJTheme.setup();
 
         /* Create and display the form */

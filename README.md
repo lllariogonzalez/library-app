@@ -67,6 +67,23 @@ La aplicación inica en `Main.java` haciendo uso de `java.awt.EventQueue.invokeL
 Este bloque de código es fundamental para la programación Swing. [EventQueue.invokeLater](https://docs.oracle.com/javase/8/docs/api/java/awt/EventQueue.html) se utiliza para garantizar que la creación y modificación de componentes de la interfaz gráfica se realicen en el hilo de despacho de eventos (Event Dispatch Thread - EDT) de Swing.
 Dentro de este bloque se llama a la vista principal **Dashboard** la cual se encarga de administrar y mostrar todas las vistas de la aplicación `views`, para ello se hace uso de `ShowJPanel` un panel que según la acción dada por el menú lateral de navegación mostrará la vista correspondiente, cada uno de estas tiene su propia lógica y controladores.
 
+```java
+
+public class Main {
+  public static void main(String args[]) {
+
+        FlatMaterialLighterIJTheme.setup();
+
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new Dashboard().setVisible(true);
+            }
+        });
+    }
+}
+
+```
+
 La lógica de toda el control y manejo de la aplicación pasa primeramente por `controllers` cada entidad o modelo, `Books`, `Users` y `Lendings` que se encuentra en `models` tiene su propio controlador, a su vez se hace uso de `interfaces` para Abstraer y establecer un contrato. Estos son implementados en cada DAO, acceso a datos que se encuentran en `db` cada uno administra los datos aplicando el contrato.
 
 ![Models library-app](./src/images/models.drawio.png)
