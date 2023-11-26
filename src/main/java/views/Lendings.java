@@ -145,8 +145,8 @@ public class Lendings extends javax.swing.JPanel {
 
     private void buttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonActionPerformed
 
-        String folio = folioTxt.getText();
-        String bookId = libroIdTxt.getText();
+        String folio = folioTxt.getText().trim();
+        String bookId = libroIdTxt.getText().trim();
 
         // Validaciones para los campos
         if (folio.isEmpty() || bookId.isEmpty()) {
