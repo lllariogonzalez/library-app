@@ -51,6 +51,8 @@ Esta actividad permitirá a los estudiantes aplicar los conocimientos adquiridos
 
 ![Library-app icon](./src/images/library-app.png)
 
+![Video demo](./src/images/Library-app.gif)
+
 Dado los requisitos del proyecto diseñe un app aplicando **POO**, **Interfaces**, **Streams**, **Java Swing** para las vistas y una arquitectura **MVC** con la siguiente estructura:
 
 ```bash
