@@ -15,7 +15,7 @@ public class Dashboard extends javax.swing.JFrame {
     private void InitContent() {
         ShowJPanel(new Principal());
         dateText.setText(Utils.getCurrentDateComplete());
-        ImageIcon icono = new ImageIcon("./src/main/resources/library.png");
+        ImageIcon icono = new ImageIcon("./src/main/resources/icon.png");
         setIconImage(icono.getImage());
     }
     
